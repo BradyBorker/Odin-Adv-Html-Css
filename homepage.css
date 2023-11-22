@@ -1,16 +1,17 @@
 * {
-    --white-color: #e2e8f0;
+    --grey-color: #d1d5db;
+    --gradient: linear-gradient(to right, #904e95, #e96443 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: var(--white-color);
+    background-color: var(--grey-color);
     margin: 0;
     padding: 0;
 }
 
 header {
-    background: linear-gradient(to right, #ee0979, #ff6a00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: var(--gradient)
 }
 
 /*
@@ -25,10 +26,8 @@ Mobile
     header {
         height: 300px;
         padding: 15px;
-
         transform: skewY(-25deg) translateY(-125px);
     }
-
 
     header > .content { 	
         margin: 0 auto;
@@ -37,8 +36,9 @@ Mobile
 
     header .image-container {
         position: relative;
-        height: 350px;
+        height: 300px;
         overflow: hidden;
+        margin: 5px;
     }
 
     header img {
@@ -48,18 +48,19 @@ Mobile
     }
 
     header .name {
-        color: var(--white-color);
+        width: min-content;
+        margin: 5px 10px;
+        color: var(--grey-color);
         font-size: 48px;
         position: absolute;
         bottom: 0;
         left: 0;
-        margin: 5px 10px;
-        width: min-content;
     }
 
-    header > .about-me {
-        max-width: 600px;
+    header section.about-me {
         height: 100px;
+        padding: 5px;
+        margin: 5px;
         border: 1px solid purple;
     }
 }
