@@ -1,0 +1,10 @@
+/*
+Tablet
+*/
+@media (max-width: 1000px) {
+    header {
+    }
+
+    header > .content { 
+    }
+}

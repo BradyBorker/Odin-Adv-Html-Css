@@ -1,0 +1,65 @@
+/*
+Mobile
+*/
+@media (max-width: 500px) {
+    header {
+
+    }
+    
+    header .image-container {
+        height: 300px;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    header img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    header section .social-media-icons img {
+        width: 25px;
+        height: auto;
+    }
+
+    header .name {
+        width: min-content;
+        margin: 5px 10px;
+        color: var(--grey-color);
+        font-size: 48px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    header section.about-me {
+        padding: 5px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    header section > h1 {
+        margin: 10px auto 5px auto;
+    }
+
+    header section > p {
+        margin: auto;
+        line-height: 25px;
+        margin-bottom: 5px;
+    }
+
+    header section .social-media-icons {
+        margin: auto;
+        display: flex;
+        gap: 10px; 
+    }
+}
+
+/*
+Desktop
+*/
+@media (min-width: 1000px) {
+
+}
