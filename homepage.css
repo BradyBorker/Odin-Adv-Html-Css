@@ -58,10 +58,32 @@ Mobile
     }
 
     header section.about-me {
-        height: 100px;
         padding: 5px;
         margin: 5px;
-        border: 1px solid purple;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    header section > h1 {
+        margin: 10px auto 5px auto;
+    }
+
+    header section > p {
+        margin: auto;
+        line-height: 25px;
+        margin-bottom: 5px;
+    }
+
+    header section .social-media-icons {
+        margin: auto;
+        display: flex;
+        gap: 10px; 
+    }
+
+    header section .social-media-icons img {
+        width: 25px;
+        height: auto;
     }
 }
 
