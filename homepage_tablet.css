@@ -1,11 +1,35 @@
 /*
 Tablet
 */
-@media (max-width: 1000px) {
+@media (min-width: 500px) {
+    .diagonal-box {
+        transform: skewY(-10deg) translateY(-125px);
+
+    }
+
     header {
-        flex-direction: column;
     }
 
     header .image-container {
+        height: 300px;
+        float: left;
+        border: 1px solid green;
+    }
+
+    header .image-container img {
+    }
+
+    header section.about-me {
+        margin: 100px 50px 0px 50px;
+        background-color: var(--grey-color);
+        box-shadow: 6px 6px 14px -1px rgba(0,0,0,0.75);
+    }
+
+    header section.about-me p {
+        margin: 0;
+    }
+
+    header section .social-media-icons {
+        display: none;
     }
 }

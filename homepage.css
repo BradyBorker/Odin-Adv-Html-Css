@@ -1,5 +1,5 @@
 * {
-    --grey-color: #d1d5db;
+    --grey-color: #f9fafb;
     --gradient: linear-gradient(to right, #904e95, #e96443 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -13,7 +13,6 @@ body {
 }
 
 header {
-    display: flex;
     position: relative;
 }
 
@@ -30,8 +29,9 @@ header {
 header .image-container { 	
     overflow: hidden;
     position: relative;
-    margin: 15px;
+    margin: 20px;
     width: auto;
+    box-shadow: 6px 6px 14px -1px rgba(0,0,0,0.75);
 }
 
 header .image-container img {
@@ -45,7 +45,7 @@ header section .social-media-icons img {
     height: auto;
 }
 
-header .name {
+header .image-heading {
     width: min-content;
     margin: 5px 10px;
     color: var(--grey-color);
@@ -53,12 +53,30 @@ header .name {
     position: absolute;
     bottom: 0;
     left: 0;
+    right: 0;
 }
 
 header section.about-me {
     padding: 5px;
+    border: 1px solid red;
+}
+
+header section.about-me h1 {
+    font-size: 40px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+header section > p {
+    margin: auto;
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+
+header section .social-media-icons {
+    margin: auto;
     display: flex;
-    flex-direction: column;
+    gap: 10px; 
 }
 
 /*
@@ -66,27 +84,13 @@ Mobile
 */
 @media (max-width: 500px) {
     header {
+        position: relative;
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
     
     header .image-container {
         height: 400px;
-    }
-
-    header section > h1 {
-        margin: 10px auto 5px auto;
-    }
-
-    header section > p {
-        margin: auto;
-        line-height: 25px;
-        margin-bottom: 5px;
-    }
-
-    header section .social-media-icons {
-        margin: auto;
-        display: flex;
-        gap: 10px; 
     }
 }
