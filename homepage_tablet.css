@@ -1,32 +1,52 @@
 /*
 Tablet
 */
-@media (min-width: 500px) {
+@media (min-width: 600px) {
     .diagonal-box {
         transform: skewY(-10deg) translateY(-125px);
-
+        height: 500px;
     }
 
     header {
     }
 
     header .image-container {
-        height: 300px;
+        height: 400px;
+        max-width: 400px;
         float: left;
-        border: 1px solid green;
+        margin: 20px 15px 0px 15px;
+        box-shadow: none;
+        overflow: visible;
     }
 
     header .image-container img {
     }
 
+    header .image-heading {
+        bottom: auto;
+        left: auto;
+        top: 0;
+        color: var(--black-color);
+        width: max-content;
+        transform: translateX(70%);
+        overflow: hidden;
+    }
+
     header section.about-me {
-        margin: 100px 50px 0px 50px;
+        margin: 100px 75px 0px 75px;
         background-color: var(--grey-color);
         box-shadow: 6px 6px 14px -1px rgba(0,0,0,0.75);
+        padding: 70px 30px 60px 30px;
+        text-align: center;
+    }
+
+    header section.about-me h1 {
+        margin-bottom: 10px;
+        font-size: 34px;
     }
 
     header section.about-me p {
-        margin: 0;
+        text-align: left;
     }
 
     header section .social-media-icons {
