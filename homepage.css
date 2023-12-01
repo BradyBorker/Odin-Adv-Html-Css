@@ -51,6 +51,7 @@ header .image-heading {
 
 header section.about-me {
     padding: 5px;
+    display: inline-block;
 }
 
 header section.about-me h1 {
