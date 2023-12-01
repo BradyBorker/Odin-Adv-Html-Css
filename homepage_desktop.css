@@ -1,6 +1,11 @@
 @media (min-width: 1000px) {
+    .diagonal-box {
+        transform: skewY(-10deg) translateY(-150px);
+        height: 510px;
+    }
+
     header {
-        margin: 30px 20px 20px 20px;
+        margin: 40px 50px 40px 50px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -8,23 +13,48 @@
 
     header .image-container {
         margin: 0px;
-        width: 600px;
+        max-width: 600px;
         flex-grow: 1;
     }
 
     header .image-heading {
+        font-size: 54px;
         top: auto;
         right: auto;
         bottom: 0;
         left: 0;
+        width: 100%;
+        margin: 5px auto;
         transform: translateX(0%);
         color: var(--grey-color);
+        text-align: center;
     }
 
     header section.about-me {
         margin: 0;
-        padding: 0;
+        padding: 25px 15px 0px 15px;
         max-width: 500px;
-        min-height: 350px;
+        min-height: 310px;
+        position: relative;
+    }
+
+    header section.about-me h1 {
+        text-align: left;
+    }
+
+    header section.about-me p {
+        padding: 0;
+    }
+
+    header section .social-media-icons {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 10px 20px 10px 10px;
+        display: flex;
+    }
+
+    header section .social-media-icons img {
+        width: 30px;
     }
 }

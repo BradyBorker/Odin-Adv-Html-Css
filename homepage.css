@@ -51,7 +51,6 @@ header .image-heading {
 
 header section.about-me {
     padding: 5px;
-    display: inline-block;
 }
 
 header section.about-me h1 {
@@ -71,7 +70,7 @@ header section .social-media-icons {
     margin: auto;
     display: flex;
     justify-content: center;
-    gap: 10px; 
+    gap: 5px; 
 }
 
 header section .social-media-icons img {

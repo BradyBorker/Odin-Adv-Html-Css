@@ -7,9 +7,6 @@ Tablet
         height: 500px;
     }
 
-    header {
-    }
-
     header .image-container {
         height: 400px;
         max-width: 400px;
@@ -17,9 +14,6 @@ Tablet
         margin: 20px 15px 0px 15px;
         box-shadow: none;
         overflow: visible;
-    }
-
-    header .image-container img {
     }
 
     header .image-heading {
