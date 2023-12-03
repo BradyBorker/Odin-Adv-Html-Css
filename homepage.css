@@ -13,9 +13,6 @@ body {
     flex-direction: column;
 }
 
-header {
-}
-
 .diagonal-box {
     margin: 0;
     height: 425px;
@@ -26,6 +23,7 @@ header {
     z-index: -1;
 }
 
+/* Header */
 header .image-container { 	
     overflow: hidden;
     position: relative;
@@ -78,10 +76,46 @@ header section .social-media-icons img {
     height: auto;
 }
 
+/* Main */
+main {
+    margin-top: 25px;
+}
+
+main section .project-container {
+    box-shadow: 0px 6px 7px -1px rgba(0,0,0,0.75);
+}
+
+main section .project-summary-container {
+    padding: 15px;
+}
+
+main section .project-summary-container > div:first-of-type {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+main section .project-summary-container .project-links {
+    display: flex;
+    gap: 10px;
+}
+
+main section .project-summary-container .project-links img {
+    width: 25px;
+    height: auto;
+}
+
+main section .project-summary-container article {
+    padding: 10px;
+}
 /*
 Mobile
 */
 @media (max-width: 600px) {
+    /* Header */
+
     header {
         display: flex;
         flex-direction: column;
@@ -90,5 +124,47 @@ Mobile
     
     header .image-container {
         height: 400px;
+    }
+
+    header section .social-media-icons {
+        gap: 10px;
+    }
+
+    /* Main */
+    main h1 {
+        text-align: center;
+        font-size: 40px;
+        font-weight: lighter;
+        margin-bottom: 15px;
+    }
+
+    main section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 45px;
+        margin: 0px 15px 15px 15px;
+
+        border: 1px solid purple;
+    }
+
+    main section .project-container {
+        border: 1px solid red;
+        min-height: 200px;
+        width: 100%;
+    }
+
+    main section .project-screenshot-container {
+        height: 250px;
+        border: 1px solid blue;
+    }
+
+    main section .project-screenshot-container img {
+        object-fit: cover;
+    }
+
+    main section .project-summary-container {
+        min-height: 175px;
+        border: 1px solid green;
     }
 }
