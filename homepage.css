@@ -129,6 +129,26 @@ main section .project-summary-container .project-links img {
 main section .project-summary-container article {
     padding: 10px;
 }
+
+main section .project-summary-container .technology-used {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+main section .project-summary-container .technology-used img {
+    width: 35px;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    min-height: 250px;
+}
+
+
+
 /*
 Mobile
 */
@@ -163,23 +183,24 @@ Mobile
         align-items: center;
         gap: 45px;
         margin: 0px 15px 15px 15px;
-
-        border: 1px solid purple;
     }
 
     main section .project-container {
-        border: 1px solid red;
         width: 100%;
         max-width: 325px;
     }
 
     main section .project-screenshot-container {
         height: 250px;
-        border: 1px solid blue;
     }
 
     main section .project-summary-container {
         min-height: 175px;
-        border: 1px solid green;
+    }
+
+    /* Footer */
+    footer {
+        border: 1px solid blue;
+        min-height: 400px;
     }
 }

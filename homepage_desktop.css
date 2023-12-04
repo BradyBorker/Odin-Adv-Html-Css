@@ -66,3 +66,10 @@
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+@media (min-width: 1500px) {
+    .diagonal-box {
+        transform: skewY(-10deg) translateY(-250px);
+        height: 510px;
+    }
+}
