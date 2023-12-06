@@ -147,10 +147,15 @@ footer {
     background: linear-gradient(to top, #649173, #dbd5a4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+footer article p:first-of-type {
+    font-size: 24px;
+    font-weight: lighter;
+}
 
-
-
-
+footer .email-container {
+    font-size: 18px;
+    font-weight: lighter;
+}
 
 /*
 Mobile
@@ -218,7 +223,8 @@ Mobile
         margin: 0px;
     }
 
-    footer article p {
+    footer .email-container > img {
+        display: none;
     }
 
     footer .social-media-icons {

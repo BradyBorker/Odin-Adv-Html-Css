@@ -70,4 +70,69 @@ Tablet
     main section .project-screenshot-container {
         min-height: 225px;
     }
+
+    /* Footer */
+    footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 35px;
+    }
+
+    footer article {
+        padding: 20px;
+        max-width: 325px;
+    }
+
+    footer article h1 {
+        text-align: start;
+        font-size: 35px;
+        font-weight: lighter;
+        margin: 0px;
+    }
+
+    footer article p:first-of-type {
+        font-size: 18px;
+        font-weight: lighter;
+    }
+    
+    footer .email-container {
+        font-size: 14px;
+        font-weight: lighter;
+    }
+
+    footer .email-container {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    footer .email-container > img {
+        height: 25px;
+    }
+
+    footer .email-container {
+    }
+
+    footer .social-media-icons {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 10px;
+    }
+
+    footer .social-media-icons img {
+        height: 35px;
+    }
+
+    .footer-image-container {
+        height: 350px;
+        max-width: 400px;
+        flex-grow: 1;
+    }
+
+    .footer-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 }
