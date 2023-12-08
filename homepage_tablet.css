@@ -73,16 +73,18 @@ Tablet
 
     /* Footer */
     footer {
+        margin-top: 150px;
+    }
+
+    footer section {
         display: flex;
         justify-content: space-between;
-        padding: 35px;
-        margin-top: 150px;
+        margin: 35px 75px;
     }
 
     footer article {
         padding: 20px 0px 20px 20px;
         max-width: 325px;
-        flex-shrink: 1;
     }
 
     footer article h1 {
