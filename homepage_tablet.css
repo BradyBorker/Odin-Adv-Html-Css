@@ -51,7 +51,7 @@ Tablet
 
     /* Main */
     main {
-        margin: 25px 45px;
+        margin: 50px 75px 0px 75px;    
     }
 
     main h1 {
@@ -76,6 +76,7 @@ Tablet
         display: flex;
         justify-content: space-between;
         padding: 35px;
+        margin-top: 150px;
     }
 
     footer article {
