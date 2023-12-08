@@ -1,16 +1,16 @@
 @media (min-width: 1000px) {
     .diagonal-box {
-        transform: skewY(-10deg) translateY(-100px);
+        transform: skewY(-10deg) translateY(-150px);
         height: 510px;
     }
 
     /* Header */
-
     header {
-        margin: 40px 50px 40px 50px;
+        margin: 40px auto 0px auto;
         display: flex;
         justify-content: center;
         align-items: center;
+        max-width: max-content;
     }
 
     header .image-container {
@@ -38,6 +38,7 @@
         max-width: 500px;
         min-height: 310px;
         position: relative;
+        box-sizing: border-box;
     }
 
     header section.about-me h1 {
@@ -61,6 +62,11 @@
     }
 
     /* Main */
+    main {
+        max-width: 1100px;
+        margin: 0px auto;
+    }
+
     main section {
         display: grid;
         grid-template-columns: repeat(3, 1fr);

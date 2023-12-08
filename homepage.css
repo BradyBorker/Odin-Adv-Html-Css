@@ -230,6 +230,11 @@ Mobile
         margin: 0px;
     }
 
+    footer article p:first-of-type {
+        margin-top: 5px;
+        font-size: 20px;
+    }
+
     footer .email-container > img {
         display: none;
     }
@@ -242,7 +247,7 @@ Mobile
     }
 
     footer .social-media-icons img {
-        height: 35px;
+        height: 40px;
     }
     
     .footer-image-container {
