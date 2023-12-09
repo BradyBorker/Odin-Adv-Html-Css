@@ -110,6 +110,11 @@ main section .project-summary-container > div:first-of-type {
     margin-left: 15px;
 }
 
+main section .project-summary-container article {
+    overflow: scroll;
+    height: 150px;
+}
+
 main section .project-summary-container .project-links {
     display: flex;
     align-items: center;
