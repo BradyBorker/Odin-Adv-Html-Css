@@ -80,7 +80,6 @@ Tablet
         display: flex;
         justify-content: space-between;
         margin: 35px;
-        gap: 10px;
     }
 
     footer article {

@@ -107,7 +107,6 @@ main section .project-summary-container > div:first-of-type {
     align-items: center;
     justify-content: space-between;
     font-size: 24px;
-    margin-left: 15px;
 }
 
 main section .project-summary-container article {
