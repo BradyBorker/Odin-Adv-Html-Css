@@ -72,6 +72,10 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
+    main section .project-container {
+        height: 100%;
+    }
+
     /* Footer */
     footer section {
         margin: 35px auto;
