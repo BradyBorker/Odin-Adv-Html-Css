@@ -115,6 +115,14 @@ main section .project-summary-container article {
     height: 150px;
 }
 
+main section .project-summary-container article > ul {
+    margin: 0px;
+}
+
+main section .project-summary-container article > ul > li {
+    margin-top: 5px;
+}
+
 main section .project-summary-container .project-links {
     display: flex;
     align-items: center;
